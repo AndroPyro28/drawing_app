@@ -45,7 +45,7 @@ window.addEventListener("load", (_) => {
       ctx.lineWidth = 5;
       ctx.lineCap = "round";
       const coordX = e.clientX;
-      const coordY = e.clientY;
+      const coordY = e.clientY - 40;
       ctx.lineTo(coordX, coordY);
       ctx.stroke();
 
